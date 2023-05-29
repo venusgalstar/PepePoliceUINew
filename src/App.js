@@ -1,11 +1,16 @@
-import "./styles.css";
-import "@walletconnect/react-native-compat";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.css';
+import './App.css';
+import './style.css';
+import Home from './pages';
 
-export default function App() {
-  return (
-    <div className="App">
-      <h2 style={{ color: "red" }}>Basic interaction with Ethereum Goerli.</h2>
-      <h3>Download Metamask in your web browser!</h3>
-    </div>
-  );
+const App = () => {
+    return (
+        <>
+            <Home />
+        </>
+
+    );
 }
+
+export default App;
