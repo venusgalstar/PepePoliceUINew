@@ -1,7 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
-import './style.css';
+import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Landing from './pages/Landing';
@@ -14,9 +12,9 @@ const App = () => {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Landing />}></Route>
-                {/* <Route path='/staking' element={<Staking />}></Route>
+                <Route path='/staking' element={<Staking />}></Route>
                 <Route path='/nftmint' element={<MintingNFT />}></Route>
-                <Route path='/nftstake' element={<StakingNFT />}></Route> */}
+                <Route path='/nftstake' element={<StakingNFT />}></Route>
             </Routes>
         </BrowserRouter>
     );

@@ -20,7 +20,7 @@ const web3ModalSetup = () =>
             10: 'https://mainnet.optimism.io', // Optimism
             25: "https://evm.cronos.org", // Cronos Mainnet Beta
             56: 'https://bsc-dataseed1.binance.org', // BSC Mainnet
-            97: 'https://data-seed-prebsc-2-s3.binance.org:8545', // BSC testnet
+            97: 'https://data-seed-prebsc-2-s2.binance.org:8545', // BSC testnet
             122: 'https://fuse-rpc.gateway.pokt.network', // Fuse Mainnet
             137: 'https://matic-mainnet-full-rpc.bwarelabs.com', // POLYGON Mainnet
             250: 'https://rpc3.fantom.network', // Fantom Opera
